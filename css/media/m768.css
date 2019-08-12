@@ -1,0 +1,31 @@
+@media(max-width: 768px){
+	 
+	.menu {
+		display: flex;
+		flex-direction: column;
+
+	}
+
+	.drop {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	top:0;
+	right:100%;
+	display: none;
+	}
+
+	.menu li .second-drop{
+	margin: 0;
+	padding: 0;
+	list-style:none;
+	display: none;
+	position: absolute;
+	left:-100%;
+	top: 0;
+}
+	.menu li {
+		border:1px solid black;
+	}
+}
